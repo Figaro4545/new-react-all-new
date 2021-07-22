@@ -1,3 +1,6 @@
 // будет экспортировать все наружу
+
+import DevTools from "./devtools";
+
 // чтобы пути были короче
-export * from './devtools';
+export DevTools from './devtools';
