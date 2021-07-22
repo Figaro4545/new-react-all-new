@@ -12,8 +12,9 @@ export default class App extends React.Component {
             // изменяем код, если продакшен - то DevTools не показывается
             // NODE_ENV взята из webpack.config.js
             <div>
-                <h1>Привет, Сумин Вячеслав</h1>
-                { process.env.NODE_ENV !== 'production' ? <DevTools /> : null }
+                <h1>Привет, Сумин </h1>
+                 { process.env.NODE_ENV !== 'production' ? <DevTools /> : null } 
+               
             </div>
            
             
